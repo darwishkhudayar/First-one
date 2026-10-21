@@ -201,4 +201,28 @@ header{
     color: #84cc16;
 }
 
+@media ( max-width:768px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .hero-btn{
+        justify-content: center;
+
+    }
+
+    .nav-links{
+        display: none;
+
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+        margin-top: 40px;
+
+    }
+    
+}
+
 
